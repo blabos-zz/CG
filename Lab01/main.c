@@ -183,6 +183,18 @@ void special_funcs(int key, int x, int y) {
         app_state.shape = sh_tri_strip;
         app_state.curr_points = 0;
         break;
+    case GLUT_KEY_F5:
+        app_state.shape = sh_pt;
+        break;
+    case GLUT_KEY_F6:
+        app_state.shape = sh_ln;
+        break;
+    case GLUT_KEY_F7:
+        app_state.shape = sh_tri;
+        break;
+    case GLUT_KEY_F8:
+        app_state.shape = sh_tri_strip;
+        break;
     default:
         app_state.capture_mode = cap_clear;
         break;

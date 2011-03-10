@@ -1,3 +1,27 @@
 Lab 01
 
+Comandos:
+r: muda a cor do objeto para vermelho
+g: muda a cor do objeto para verde
+u: muda a cor do objeto para azul
+b: muda a cor do objeto para preto
+w: muda a cor do objeto para branco
+
+R: muda a cor de fundo para vermelho
+G: muda a cor de fundo para verde
+U: muda a cor de fundo para azul
+B: muda a cor de fundo para preto
+W: muda a cor de fundo para branco
+
+F1: Ativa modo de captura com a forma pontos 
+F2: Ativa modo de captura com a forma linhas 
+F3: Ativa modo de captura com a forma triângulos 
+F4: Ativa modo de captura com a forma triângulos (strip) 
+
+F5: Muda a forma atual para pontos 
+F6: Muda a forma atual para linhas 
+F7: Muda a forma atual para triângulos 
+F8: Muda a forma atual para triângulos (strip)
+
+Compilar:
 gcc -o lab01 main.c -lGL -lGLU -lglut
