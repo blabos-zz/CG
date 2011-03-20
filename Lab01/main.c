@@ -50,9 +50,9 @@ typedef struct {
     window_geometry_t geometry;
     color_t color;
     color_t bg_color;
-} state_t;
+} app_state_t;
 
-static state_t app_state;
+static app_state_t app_state;
 
 const static color_t red = {1.0, 0.0, 0.0, 0.0};
 const static color_t green = {0.0, 1.0,0.0, 0.0};
